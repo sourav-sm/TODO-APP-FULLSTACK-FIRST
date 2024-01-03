@@ -16,6 +16,6 @@ const todoSchema=mongoose.Schema({
 })
 
 const todo=mongoose.model('todos',todoSchema);
-modeule.exports= {
+module.exports= {
     todo
 }
